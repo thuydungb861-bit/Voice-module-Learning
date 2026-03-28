@@ -25,7 +25,7 @@ ros2 launch shushan_voice_player voice_player.launch.py
 ## Publish text
 
 ```bash
-ros2 topic pub --once /voice/text std_msgs/msg/String "{data: '你好，我是树山机器人'}"
+ros2 topic pub --once /voice/text std_msgs/msg/String "{data: '你好'}"
 ```
 
 ## Publish a WAV path
